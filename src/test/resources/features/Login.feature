@@ -1,10 +1,9 @@
 Feature: Login requirement feature
   As a customer
-  I want to logon to the application
-  So I can subscribe to Journal
+  I want to validate the logon page
 
   @regression
   Scenario: Login with valid details
     Given I am on the homepage
-    When I login with a valid details
-    Then I am login successfully
+    When I navigate to login page
+    Then I am validate i am in login page

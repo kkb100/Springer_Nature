@@ -15,18 +15,11 @@ import org.junit.runner.RunWith;
                 "json:target/test-report/report-json.json",
                 "junit:target/test-report/report-xml.xml"},//Report Template
         snippets = SnippetType.CAMELCASE	//Used to determine what the method of the Step Def would be
-//       ,glue = {""}  			//Package with Step Definitions and hooks
+       //,glue = {"src/test/uk/co/nature/"}  			//Package with Step Definitions and hooks
         ,tags = {"@regression"}
 
 
 )
-
-
-
-
-
-
-
 
 public class RunnerCukesTest {
 }
